@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(/img/img4.jpg); 
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left:  60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 100%;
+	padding: 8px 16px;
+	background-color: #1d1f1c00;
+	font-size: 13px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    width: 100%;
+	padding: 8px 16px;
+	background-color: #1d1f1c;
+	color: #f4df85;
+	font-size: 13px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 20px;
+}
+
+.here {
+    width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #1d1f1c;
+	color: #f4df85;
+	font-size: 13px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+}
+
+p {
+    color: white;
+    font-size: 19px;
+    line-height: 22px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-flex;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(/img/img6l.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(/img/img5small.jpg);
+    
+}
+.card2 {
+    background-image: url(/img/img2small.jpg);
+}
+.card3 {
+    background-image: url(/img/img11.jpg);
+}
+.card4 {
+    background-image: url(/img/img6small.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+a:is(:link, :active, :visited).active {
+    color: white;
+    background-color: black;
+}
+
+button {
+    width: 100%;
+	padding: 8px 16px;
+	background-color: #1d1f1c00;
+	color: #c5971800;
+	font-size: 35px;
+	border: 5px;
+    border-color: rgba(0, 0, 255, 0);
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+    border-radius: 20px;
+}
+
+button:hover {
+    
+	background-color: #1d1f1c80;
+	color: #f4df85;
+	transition: .3s;
+    border-radius: 10px;
+}

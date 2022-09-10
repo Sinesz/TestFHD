@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap" rel="stylesheet">
+
+    <title>Sinesz</title>
+	<link rel="icon" type="image/x-icon" href="/img/chameleon.png">
+</head>
+
+<body>
+	<div class="container">
+		<div class="navbar">
+            <img src="img/chameleon.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="My_chameleons.html">MY CHAMELEONS</a></li>
+                    <li><a class="here" href="Contact.html">CONTACT</a></li> <!--Class here = current page-->
+                </ul>
+            </nav>
+        </div>
+
+		<div class="contact-box">
+			<div class="left"></div>
+            <div class="right">
+                <h2>Contact Me</h2>
+                <form action="https://formsubmit.co/297c8ccc8216671005d269d5cc706627" method="POST">
+                    <!--Honeypot for spammers-->
+                    <input type="text" name="_honey" style="display: none;">
+                    <!--Disable Captcha, since we already filter spammers-->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="text" class="field" placeholder="Your Name" required>
+                    <input type="email" class="field" placeholder="Your Email" required>
+                    <input type="text" class="field" placeholder="Phone (optional)">
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+		</div>
+	</div>
+</body>
+</html>
